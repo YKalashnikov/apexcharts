@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Bar from './components/Bar';
 import Heatmap from './components/Heatmap';
 import Line from './components/Line';
+import Scatter from './components/Scatter';
+import Area from './components/Area';
 
 class App extends Component {
   render() {
@@ -10,6 +12,8 @@ class App extends Component {
           <Bar/>
           <Heatmap/>
           <Line/>
+          <Scatter/>
+          <Area/>
       </div>
     );
   }
