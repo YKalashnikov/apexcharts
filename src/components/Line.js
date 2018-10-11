@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Chart from 'react-apexcharts';
 
-class Heatmap extends Component {
+class Donut extends Component {
     constructor(props){
         super(props)
         this.state = {
@@ -25,7 +25,7 @@ class Heatmap extends Component {
                       ]
                   },
                   plotOptions: {
-                    heatmap: {
+                    donut: {
                       horizontal: false
                     }
                   },
@@ -69,8 +69,8 @@ class Heatmap extends Component {
             this.setState({
                options: {...this.state.options,
                plotOptions: {...this.state.plotOptions,
-               heatmap:
-                {...this.state.options.plotOptions.heatmap,
+                line:
+                {...this.state.options.plotOptions.line,
                horizontal: true
            }
         }
@@ -85,7 +85,7 @@ class Heatmap extends Component {
               <Chart 
               options = {this.state.options}
               series = {this.state.series}
-              type = "heatmap"
+              type = "line"
               height = "450"
               width = "100%"
               
@@ -95,4 +95,4 @@ class Heatmap extends Component {
         );
     }
 }
-export default Heatmap;
+export default Donut;
