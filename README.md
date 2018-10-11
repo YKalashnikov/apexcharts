@@ -1,5 +1,5 @@
 
-<img src='/Users/yuriikalashnikov/Desktop/graph/src/ckoxi49d.svg'/>
+<img src='/Users/yuriikalashnikov/Desktop/graph/charts.png'/>
 
 
 # ApexCharts
