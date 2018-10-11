@@ -4,6 +4,7 @@ import Heatmap from './components/Heatmap';
 import Line from './components/Line';
 import Scatter from './components/Scatter';
 import Area from './components/Area';
+import Donut from './components/Donut';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <Line/>
           <Scatter/>
           <Area/>
+          <Donut/>
       </div>
     );
   }
