@@ -5,7 +5,7 @@
 # ApexCharts
 
 
-➜ [Demo](apexcharts.netlify.com)
+➜ [Demo](https://apexcharts.netlify.com/)
 
 ### Using
 
